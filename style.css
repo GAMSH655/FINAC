@@ -1,0 +1,29 @@
+*{
+ padding:0;
+ margin: 0;
+ font-family:Montserrat;
+ 
+}
+.headerConatiner{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+.logoText{
+    font-size: 2rem;
+    color: #BDFF0D;
+    text-transform:capitalize ;
+}
+#navLinks{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #A9AAA1;
+    margin: 15px;
+}
+#loginBtn , #getStartedBtn{
+    width: 120px;
+    padding:8px;
+    border: none;
+    border-radius: 10px;
+}
