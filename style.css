@@ -21,9 +21,41 @@
     color: #A9AAA1;
     margin: 15px;
 }
-#loginBtn , #getStartedBtn{
+#loginBtn{
     width: 120px;
     padding:8px;
+    background-color: transparent;
     border: none;
-    border-radius: 10px;
+    color: white;
 }
+ #getStartedBtn{
+    width: 120px;
+    padding:8px;
+    border: 1.5px solid white;
+    background-color: black;
+    color: white;
+}
+.main1{
+    background: rgba(26, 27, 24, 1);
+}
+.welcome{
+    font-size: 72px;
+    padding: 50px;
+}
+.spn2{
+    background:linear-gradient( 50deg, rgba(189, 255, 13, 1),rgba(255, 255, 255, 0.41));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.explore{
+  
+    line-height: 40px;
+}
+.spn1{
+    display: block;
+}
+.download{
+     background-color: rgba(189, 255, 13, 1);
+     color: black;
+     padding: 8px;
+}padding: 50px;
