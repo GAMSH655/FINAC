@@ -1,184 +1,238 @@
-*{
- padding:0;
- margin: 0;
- font-family: 'Satoshi', sans-serif;
- 
-}
-.headerConatiner{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background: rgba(26, 27, 24, 1);
-}
-.logoText{
-    font-size: 2rem;
-    color: #BDFF0D;
-    text-transform:capitalize ;
-}
-#navLinks{
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #A9AAA1;
-    margin: 15px;
-}
-#loginBtn{
-    width: 120px;
-    padding:8px;
-    background-color: transparent;
-    border: none;
-    color: white;
-    text-transform: capitalize;
-}
- #getStartedBtn{
-    width: 120px;
-    padding:8px;
-    border: 1.5px solid white;
-    background-color: transparent;
-    color: white;
-    text-transform: capitalize;
-}
-.main1{
-    background: rgba(26, 27, 24, 1);
-}
-.welcome{
-    font-size: 72px;
-    padding: 50px;
-}
-.spn2{
-    background:linear-gradient( 50deg, rgba(189, 255, 13, 1),rgba(255, 255, 255, 0.41));
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.explore{
-    line-height: 40px;
-    padding-left: 40px;
-    padding-top: -60px;
-    color: rgba(169, 170, 161, 1);
-}
-.spn1{
-    display: block;
-}
-.download{
-     background-color: #bdff0d;
-     color: black;
-     padding: 8px;
-     margin:40px;
-     border: none;
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      text-transform: capitalize;
-}
-#mainImg{
-    height: 500px;
-    padding: 50px;
-}
-.main1{
-     display: flex;
-     justify-content: space-around;
-}
-.overLappingImgs{
-    position: relative
-}
-#img1{
-    position: relative;
-}
-#img2{
-    position: relative;
-     right: 30px;
-}
-#img3{
-    position: relative;
-    right: 60px;
-}
-#million{
-     color:rgba(255, 255, 255, 1);
-      font-size: 3rem;
-}
-.all{
-     display: flex;
-}
-.trusted{
-    color: white;
-    line-height: 30px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-#why{
-    font-weight: bold;
-    font-size: 59.43px;
-    text-align: center;
-    padding: 20px;
-    color:#143F26 ;
-}
-#clear{
-    text-align: center;
-    color:#191D23 ;
-    font-weight: 400px;
-}
-.section2{
-    background-color: #F8FEF5;
-}
-.gridBoxes{
-    width: 350px;
-    text-align: center;
-    background-color: #FFFFFF;
-    margin: 20px;
-}
-.gridBoxes img{
-    padding: 20px;
-
-}
-#mobil{
-  font-weight: 400;
-  font-family: serif;
-  padding: 10px;
-  text-transform: capitalize;
-}
-.gridContainer{
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    margin-top: 50px;
-    place-items: center;
-}
-.gridFlex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section3{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-#transferTExt{
-    font-weight: 500;
-    font-size: 59.43px;
-    text-align: center;
-}
-.trs{
-    display: block;
-    font-weight: 500;
-    font-size: 59.43px;
-}
-.textBox{
-    width: 400px;
-}
-#with{
-    font-weight: 400;
-    font-size: 21.61px;
-    line-height: 40px;
-    padding: 30px;
-   
-}
-.section3 img{
+    *{
+    padding:0;
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
     
-}
-.download2{
-    background-color:#BDFF0D;
-    border-radius: 10px;
-    color: black;
-    padding: 8px;
-    margin:40px;
-    border: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .headerConatiner{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background: rgba(26, 27, 24, 1);
+    }
+    .logoText{
+        font-size: 2rem;
+        color: #BDFF0D;
+        text-transform:capitalize ;
+    }
+    #navLinks{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #A9AAA1;
+        margin: 15px;
+    }
+    #loginBtn{
+        width: 120px;
+        padding:8px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        text-transform: capitalize;
+    }
+    #getStartedBtn{
+        width: 120px;
+        padding:8px;
+        border: 1.5px solid white;
+        background-color: transparent;
+        color: white;
+        text-transform: capitalize;
+    }
+    .main1{
+        background: rgba(26, 27, 24, 1);
+    }
+    .welcome{
+        font-size: 72px;
+        padding: 50px;
+    }
+    .spn2{
+        background:linear-gradient( 50deg, rgba(189, 255, 13, 1),rgba(255, 255, 255, 0.41));
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .explore{
+        line-height: 40px;
+        padding-left: 40px;
+        padding-top: -60px;
+        color: rgba(169, 170, 161, 1);
+    }
+    .spn1{
+        display: block;
+    }
+    .download{
+        background-color: #bdff0d;
+        color: black;
+        padding: 8px;
+        margin:40px;
+        border: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+    }
+    #mainImg{
+        height: 500px;
+        padding: 50px;
+    }
+    .main1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .overLappingImgs{
+        position: relative
+    }
+    #img1{
+        position: relative;
+    }
+    #img2{
+        position: relative;
+        right: 30px;
+    }
+    #img3{
+        position: relative;
+        right: 60px;
+    }
+    #million{
+        color:rgba(255, 255, 255, 1);
+        font-size: 3rem;
+    }
+    .all{
+        display: flex;
+    }
+    .trusted{
+        color: white;
+        line-height: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    #why{
+        font-weight: bold;
+        font-size: 59.43px;
+        text-align: center;
+        padding: 20px;
+        color:#143F26 ;
+    }
+    #clear{
+        text-align: center;
+        color:#191D23 ;
+        font-weight: 400px;
+    }
+    .section2{
+        background-color: #F8FEF5;
+    }
+    .gridBoxes{
+        width: 350px;
+        text-align: center;
+        background-color: #FFFFFF;
+        margin: 20px;
+    }
+    .gridBoxes img{
+        padding: 20px;
+    }
+    #mobil{
+    font-weight: 400;
+    font-family: serif;
+    padding: 10px;
     text-transform: capitalize;
-}
+    }
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        padding: 50px;
+    }
+    .gridFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 100px;
+    
+    }
+    #transferTExt{
+        font-weight: 500;
+        font-size: 59.43px;
+        text-align: center;
+    }
+    .trs{
+        display: block;
+        font-weight: 500;
+        font-size: 59.43px;
+    }
+    .textBox{
+        width: 400px;
+    }
+    #with{
+        font-weight: 400;
+        font-size: 21.61px;
+        line-height: 40px;
+        padding: 30px;
+    
+    }
+    .section3 img{
+        
+    }
+    .download2{
+        background-color:#BDFF0D;
+        border-radius: 10px;
+        color: black;
+        padding: 8px;
+        margin:40px;
+        border: none;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+    }
+    #receive{
+        font-weight: 500;
+        font-size:50px;
+        font-family: 'Satoshi', sans-serif;
+    }
+    #experience{
+    font-family: Satoshi;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .textbox{
+        margin: 30px;
+        width: 500px;
+    }
+    .section4{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #dollar{
+        position:absolute;
+    }
+    #coin{
+        position:absolute;
+        right:  10rem;
+        transform: translateY(150px);
+    }
+    #man::before{
+    content: "";
+    position:relative;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    }
+    .section5{
+        background: rgba(25, 43, 26, 1);
+    }
+    .customer{
+        font-family: Satoshi;
+        font-size: 59px;
+        font-weight: 500;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:  rgba(189, 255, 13, 1);
+        padding: 20px;
+    }
+    #hundred{
+        color: white;
+    }
+    .custometsp{
+        display: block;
+    }
