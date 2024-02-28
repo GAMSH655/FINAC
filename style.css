@@ -1,7 +1,7 @@
 *{
  padding:0;
  margin: 0;
- font-family:Montserrat;
+ font-family: 'Satoshi', sans-serif;
  
 }
 .headerConatiner{
@@ -95,4 +95,25 @@
 }
 .all{
      display: flex;
+}
+.trusted{
+    color: white;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#why{
+    font-weight: bold;
+    font-size: 59.43px;
+    text-align: center;
+    padding: 20px;
+    color:#143F26 ;
+}
+#clear{
+    text-align: center;
+    color:#191D23 ;
+    font-weight: 400px;
+}
+.section2{
+    background-color: #F8FEF5;
 }
