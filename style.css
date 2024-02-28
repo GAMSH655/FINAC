@@ -136,10 +136,13 @@
 .gridContainer{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    width: 900px;
     margin-top: 50px;
-     margin-left: 300px;
     place-items: center;
+}
+.gridFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section3{
     display: flex;
@@ -149,13 +152,33 @@
 #transferTExt{
     font-weight: 500;
     font-size: 59.43px;
-   
+    text-align: center;
 }
 .trs{
     display: block;
     font-weight: 500;
     font-size: 59.43px;
 }
+.textBox{
+    width: 400px;
+}
+#with{
+    font-weight: 400;
+    font-size: 21.61px;
+    line-height: 40px;
+    padding: 30px;
+   
+}
 .section3 img{
-    height: 500px;
+    
+}
+.download2{
+    background-color:#BDFF0D;
+    border-radius: 10px;
+    color: black;
+    padding: 8px;
+    margin:40px;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
 }
