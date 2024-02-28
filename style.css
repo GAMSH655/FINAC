@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: black;
+    background: rgba(26, 27, 24, 1);
 }
 .logoText{
     font-size: 2rem;
@@ -27,13 +27,15 @@
     background-color: transparent;
     border: none;
     color: white;
+    text-transform: capitalize;
 }
  #getStartedBtn{
     width: 120px;
     padding:8px;
     border: 1.5px solid white;
-    background-color: black;
+    background-color: transparent;
     color: white;
+    text-transform: capitalize;
 }
 .main1{
     background: rgba(26, 27, 24, 1);
@@ -72,4 +74,27 @@
 .main1{
      display: flex;
      justify-content: space-around;
+}
+.overLappingImgs{
+    position: relative
+     background-color: red;
+}
+#img1{
+    position: relative;
+}
+#img2{
+    position: relative;
+     right: 30px;
+}
+#img3{
+    position: relative;
+    right: 60px;
+}
+#million{
+     color:rgba(255, 255, 255, 1);
+      font-size: 3rem;
+}
+.all{
+     display: flex;
+     justify-content: ;
 }
