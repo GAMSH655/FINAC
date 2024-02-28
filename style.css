@@ -141,3 +141,21 @@
      margin-left: 300px;
     place-items: center;
 }
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+#transferTExt{
+    font-weight: 500;
+    font-size: 59.43px;
+   
+}
+.trs{
+    display: block;
+    font-weight: 500;
+    font-size: 59.43px;
+}
+.section3 img{
+    height: 500px;
+}
