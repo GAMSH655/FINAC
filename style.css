@@ -117,3 +117,27 @@
 .section2{
     background-color: #F8FEF5;
 }
+.gridBoxes{
+    width: 350px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+.gridBoxes img{
+    padding: 20px;
+
+}
+#mobil{
+  font-weight: 400;
+  font-family: serif;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 900px;
+    margin-top: 50px;
+     margin-left: 300px;
+    place-items: center;
+}
