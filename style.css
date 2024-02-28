@@ -43,6 +43,7 @@
     .welcome{
         font-size: 72px;
         padding: 50px;
+        color: white;
     }
     .spn2{
         background:linear-gradient( 50deg, rgba(189, 255, 13, 1),rgba(255, 255, 255, 0.41));
@@ -128,8 +129,7 @@
     }
     #mobil{
     font-weight: 400;
-    font-family: serif;
-    padding: 10px;
+    padding: 15px;
     text-transform: capitalize;
     }
     .gridContainer{
@@ -167,9 +167,6 @@
         line-height: 40px;
         padding: 30px;
     
-    }
-    .section3 img{
-        
     }
     .download2{
         background-color:#BDFF0D;
@@ -235,4 +232,48 @@
     }
     .custometsp{
         display: block;
+    }
+    .reviewBox1{
+        background-color: rgba(255, 255, 255, 1);
+        width: 500px;
+        padding: 40px;
+        border-radius: 25px;
+
+    }
+    .reTExt{
+                font-family: Satoshi;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 30px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        border-bottom: 2px black solid;
+
+    }
+    #customerImg{
+        margin: 20px;
+    }
+    .next , .prev{
+       background-color:#BDFF0D; 
+       width: 70px;
+       height: 60px;
+       border-radius: 50%;
+       padding: 8px;
+       border-radius: 30px;
+       border: none;
+       font-weight: bolder;
+       font-size: 2rem;
+
+    }
+    .flexcont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrowCont{
+        margin-left:170px ;
+        padding: 15px;
     }
