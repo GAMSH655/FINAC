@@ -77,7 +77,6 @@
 }
 .overLappingImgs{
     position: relative
-     background-color: red;
 }
 #img1{
     position: relative;
@@ -96,5 +95,4 @@
 }
 .all{
      display: flex;
-     justify-content: ;
 }
