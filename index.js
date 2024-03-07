@@ -34,3 +34,12 @@ let currentReview = 0;
       plentyTExt.innerHTML = customerReviewArray.customerTestimonial;
       customerPhoto.src = customerReviewArray.customerAvatar
  })
+
+ const accord1 = document.querySelectorAll(".accord1")
+
+
+ accord1.forEach(acc=>{
+  acc.addEventListener("click" ,()=>{
+    acc.classList.toggle("active")
+  })
+ })

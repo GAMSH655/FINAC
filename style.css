@@ -304,42 +304,42 @@
             text-align: center;
             color: rgba(20, 63, 38, 1);
     }
-        .quest , .answer{
+    .question{
+        font-family: Satoshi;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 10px;
+
+    }
+        .accordionHEader{
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: red;
+        }
+        .fa-chevron-down  {
+            padding-top: 20px;
+        }
+        .ans {
+            max-height: 0;
+            overflow: hidden;
+        }
+        .ans .ansTExt{
+            padding: 20px;
             font-family: Satoshi;
             font-size: 22px;
             font-weight: 500;
             line-height: 29px;
             letter-spacing: 0em;
             text-align: left;
-    }
-    .answer{
-        font-family: Satoshi;
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 29px;
-        letter-spacing: 0em;
-        text-align: left;
-        height: 0px;
-        overflow: hidden;
-}
-    .accordion{
-      border-bottom: 3px solid black;
-         max-width: 100%;
-    }
-    .accordionHEader{
-        background-color: #143F26;
-        color: white;
-        padding: 10px;
-    }
-    .accordionHEader::before{
-        content: ">";
-        position: absolute;
-        font-size: 1rem;
-        color: white;
-        font-weight: bolder;
-        right: 90px;
-    }
-    .accordionHEader:hover .answer{
-        height: 200px;
-        overflow: none;
-    }
+            padding: 10px;
+            color:black;
+        }
+        .accord1.active   .ans{
+            max-height: 300px;
+            overflow: none;
+        }
+        
