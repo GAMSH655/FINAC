@@ -2,7 +2,10 @@
     padding:0;
     margin: 0;
     font-family: 'Satoshi', sans-serif;
-    
+    box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
     }
     .headerConatiner{
         display: flex;
@@ -123,6 +126,9 @@
         text-align: center;
         background-color: #FFFFFF;
         margin: 20px;
+        padding: 12px;
+        line-height: 35px;
+        letter-spacing: 2px;
     }
     .gridBoxes img{
         padding: 20px;
@@ -266,7 +272,7 @@
        border: none;
        font-weight: bolder;
        font-size: 2rem;
-
+       margin: 10px;
     }
     .flexcont{
         display: flex;
@@ -274,6 +280,8 @@
         align-items: center;
     }
     .arrowCont{
-        margin-left:170px ;
-        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
