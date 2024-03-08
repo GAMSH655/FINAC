@@ -318,7 +318,6 @@
             margin: 20px;
             display: flex;
             justify-content: space-between;
-            background-color: red;
         }
         .fa-chevron-down  {
             padding-top: 20px;
@@ -334,12 +333,20 @@
             font-weight: 500;
             line-height: 29px;
             letter-spacing: 0em;
-            text-align: left;
             padding: 10px;
             color:black;
+        }
+        .accord1{
+            border-bottom: 3px solid black;
         }
         .accord1.active   .ans{
             max-height: 300px;
             overflow: none;
+            transition: .5s all ease-in;
+        }
+        .accord1.active  .fa-chevron-down  {
+            transform: rotateX(180deg);
+            transition: .5s all ease-in;
+            margin-bottom: 10px;
         }
         
