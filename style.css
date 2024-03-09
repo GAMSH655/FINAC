@@ -428,9 +428,20 @@
         .footer{
             margin: 20px;
             border-top: .5px solid black;
+            padding: 25px;
+            display: flex;
+            justify-content: space-evenly;
         }
         .we{
-            margin-top: 50px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .footerTxt{
+            color:#143F26 ;
+            
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: capitalize;
         }
         .ftblk{
              display: block;
@@ -440,5 +451,34 @@
              line-height: 24px;
              letter-spacing: 0px;
              text-align: left;
-          
+        }
+        .iconContainer{
+            margin-top: 25px ;
+        }
+        .icon{
+            padding: 10px;
+        }
+        .com{
+            font-family: Satoshi;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-transform: capitalize;
+
+        }
+        .company{
+            margin-top: 30px;
+        }
+        .listed{
+            font-family: Neue Montreal;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 43px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #191D23;
+            text-transform: capitalize;
+            
         }
