@@ -211,7 +211,8 @@
     #coin{
         position:absolute;
         right:  10rem;
-        transform: translateY(150px);
+        transform: translateY(240px);
+        transform: translateX(150px);
     }
     #man::before{
     content: "";
@@ -349,4 +350,52 @@
             transition: .5s all ease-in;
             margin-bottom: 10px;
         }
-        
+        .one{
+            font-family: Satoshi;
+            font-size: 59px;
+            font-weight: 500;
+            letter-spacing: 0em;
+            text-align: left;
+            line-height: 50px;
+        }
+        .two{
+            font-family: Satoshi;
+            font-size: 59px;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            line-height: 50px;
+        }
+        #twoText{
+            color: rgba(189, 255, 13, 1);
+        }
+        .three{
+            font-family: Satoshi;
+            font-size: 59px;
+            font-weight: 500;
+            line-height: 70px;
+            letter-spacing: 0em;
+            text-align: left;
+            line-height: 50px;
+        }
+        #shortPhone{
+           padding-top: 35px;
+           padding-bottom: 10px;
+           padding-right: 20px;
+        }
+        .solText{
+             padding: 20px;
+             line-height: 40px;
+        }
+        .badge{
+            margin: 50px;
+        }
+        .solutionBox{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #143F26;
+            margin: 50px;
+            border-radius: 50px;
+        }
