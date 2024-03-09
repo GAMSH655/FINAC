@@ -412,7 +412,7 @@
             line-height: 21px;
             letter-spacing: 0px;
             text-align: left;
-            padding: 20px;
+            padding: 30px;
         }
         .downBox{
             display: flex;
@@ -440,4 +440,5 @@
              line-height: 24px;
              letter-spacing: 0px;
              text-align: left;
+          
         }
