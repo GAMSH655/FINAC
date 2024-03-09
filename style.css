@@ -345,6 +345,9 @@
             overflow: none;
             transition: .5s all ease-in;
         }
+        .accord1:last-child{
+            border-bottom: none;
+        }
         .accord1.active  .fa-chevron-down  {
             transform: rotateX(180deg);
             transition: .5s all ease-in;
@@ -398,4 +401,43 @@
             background-color: #143F26;
             margin: 50px;
             border-radius: 50px;
+        }
+        .dwn{
+            color:rgba(20, 63, 38, 1);
+            display: block;
+            line-height: 30px;
+            font-family: Neue Montreal;
+            font-size: 50px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding: 20px;
+        }
+        .downBox{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: .5px solid black;
+            margin: 20px;
+            background-color: #F8FEF5;
+        }
+        .footer{
+             background-color: #F8FEF5;
+        }
+        .footer{
+            margin: 20px;
+            border-top: .5px solid black;
+        }
+        .we{
+            margin-top: 50px;
+        }
+        .ftblk{
+             display: block;
+             font-family: Satoshi;
+             font-size: 17px;
+             font-weight: 400;
+             line-height: 24px;
+             letter-spacing: 0px;
+             text-align: left;
         }
