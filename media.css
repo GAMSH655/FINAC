@@ -118,8 +118,12 @@
         text-align: left;
         margin-right: 160px;
     }
-    #shortPhone , #man , #doubP{
+    #shortPhone , #man  {
         height: 400px;
         width: 400px;
+    }
+    #doubP{
+        height: 200px;
+        width: 200px;
     }
 }
