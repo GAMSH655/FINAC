@@ -398,8 +398,8 @@
             justify-content: space-around;
             align-items: center;
             background-color: #143F26;
-            margin: 50px;
-            border-radius: 50px;
+            width: 100%;
+           
         }
         .dwn{
             color:rgba(20, 63, 38, 1);
@@ -408,10 +408,10 @@
             font-family: Neue Montreal;
             font-size: 50px;
             font-weight: 500;
-            line-height: 21px;
+           
             letter-spacing: 0px;
-            text-align: left;
-            padding: 30px;
+          
+           
         }
         .downBox{
             display: flex;

@@ -61,4 +61,42 @@
         color:  rgba(189, 255, 13, 1);
         padding: 20px;
     }
+    .solutionBox{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #143F26;
+       margin-top: 40px;
+    }
+    .one  ,.two , .three{
+        text-align: center;
+        font-size: 30px;
+    }
+    .badge{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .dwn{
+        color:rgba(20, 63, 38, 1);
+        display: block;
+        line-height: 30px;
+        font-family: Neue Montreal;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-align: center;
+    }
+    .downBox{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        border-bottom: .5px solid black;
+        margin: 20px;
+        background-color: #F8FEF5;
+    }
 }
