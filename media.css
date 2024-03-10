@@ -99,4 +99,23 @@
         margin: 20px;
         background-color: #F8FEF5;
     }
+    .footer{
+       
+        border-top: .5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .com{
+        font-family: Satoshi;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+    }
+    .subOuterdiv{
+        text-align: left;
+        margin-right: 160px;
+    }
 }
