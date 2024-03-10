@@ -51,4 +51,14 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+    .customer{
+        font-family: Satoshi;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+        color:  rgba(189, 255, 13, 1);
+        padding: 20px;
+    }
 }
