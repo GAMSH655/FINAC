@@ -53,13 +53,23 @@
     }
     .customer{
         font-family: Satoshi;
-        font-size: 30px;
+        font-size: 10px;
         font-weight: 500;
         line-height: 52px;
         letter-spacing: 0em;
         text-align: center;
         color:  rgba(189, 255, 13, 1);
         padding: 20px;
+        color: red;
+    }
+    
+    .custometsp{
+        display: block;
+        font-size: 30px;
+    }
+    #hundred{
+        color: white;
+        font-size: 30px;
     }
     .solutionBox{
         display: flex;
@@ -135,5 +145,16 @@
         text-align: center;
         color:  rgba(189, 255, 13, 1);
         padding: 20px;
+    }
+    .subOuterdiv{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .reviewBox1{
+        background-color: rgba(255, 255, 255, 1);
+        width: 300px;
+        padding: 40px;
+        background-color: red;
     }
 }

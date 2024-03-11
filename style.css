@@ -241,10 +241,9 @@
     }
     .reviewBox1{
         background-color: rgba(255, 255, 255, 1);
-        width: 00px;
+        width: 500px;
         padding: 40px;
         border-radius: 25px;
-
     }
     .reTExt{
                 font-family: Satoshi;
@@ -408,7 +407,7 @@
             font-family: Neue Montreal;
             font-size: 50px;
             font-weight: 500;
-           
+           padding: 20px;
             letter-spacing: 0px;
           
            
@@ -479,5 +478,11 @@
             text-align: left;
             color: #191D23;
             text-transform: capitalize;
-            
+        }
+        .subOuterdiv{
+            display: flex;
+            justify-content: space-between;
+        }
+        .outerDiv{
+            margin: 25px;
         }
