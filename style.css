@@ -423,9 +423,7 @@
              background-color: #F8FEF5;
         }
         .footer{
-           
             border-top: .5px solid black;
-            padding: 25px;
             display: flex;
             justify-content: space-evenly;
         }
@@ -481,6 +479,7 @@
         .subOuterdiv{
             display: flex;
             justify-content: space-between;
+            margin: 20px;
         }
         .outerDiv{
             margin: 25px;
