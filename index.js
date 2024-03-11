@@ -23,20 +23,31 @@ const customerReviewArray =[
 ];
 
 let currentReview = 0;
- nextBTn.addEventListener("click" , function(){
+ 
     if (currentReview >= customerReviewArray.length-1){
         currentReview = 0;
         plentyTExt.innerHTML = customerReviewArray[0];
         customerPhoto.src = customerReviewArray[0];
-        return;
     }
-     currentReview++;
+    
+      currentReview ++;
       plentyTExt.innerHTML = customerReviewArray.customerTestimonial;
-      customerPhoto.src = customerReviewArray.customerAvatar
- })
+      customerPhoto.src = customerReviewArray.customerAvatar;
+
+      nextBTn.addEventListener("click" , function(){
+        if (i=0; i<=customerReviewArray.length-1; 1++ ) {
+
+            currentReview = 0;
+            plentyTExt.innerHTML = customerReviewArray[0];
+            customerPhoto.src = customerReviewArray[0];
+        } else {
+          
+        }
+
+    })
+
 
  const accord1 = document.querySelectorAll(".accord1")
-
 
  accord1.forEach(acc=>{
   acc.addEventListener("click" ,()=>{

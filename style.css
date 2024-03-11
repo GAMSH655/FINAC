@@ -142,6 +142,7 @@
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
         padding: 50px;
+        width: 100%;
     }
     .gridFlex{
         display: flex;
