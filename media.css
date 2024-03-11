@@ -1,4 +1,10 @@
 @media only screen and (max-width:760px){
+   *{
+    box-sizing: border-box;
+   }
+   body{
+  
+   }
     .navContainers{
         display: none;
     }
@@ -106,7 +112,7 @@
         align-items: center;
         flex-wrap: wrap;
         border-bottom: .5px solid black;
-        margin: 20px;
+       
         background-color: #F8FEF5;
     }
     .footer{
@@ -153,8 +159,6 @@
     }
     .reviewBox1{
         background-color: rgba(255, 255, 255, 1);
-        width: 300px;
-        padding: 40px;
-        background-color: red;
+        width: 100%;
     }
 }
